@@ -50,7 +50,7 @@ export function SearchView() {
                   value={search}
                   onUnFocus={setSearchUnFocus}
                   placeholder={
-                    t("search.placeholder") || "iagos movie thing?"`  prettier/prettier
+                    t("search.placeholder") || "What do you want to watch?"
 
                   }
                 />
