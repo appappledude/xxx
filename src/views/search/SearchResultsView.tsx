@@ -72,7 +72,7 @@ export function SearchResultsView({ searchQuery }: { searchQuery: MWQuery }) {
       {results.length > 0 ? (
         <div>
           <SectionHeading
-            title={t("search.headingTitle") || "Search results"}
+            title={t("search.headingTitle") || "Search re"}
             icon={Icons.SEARCH}
           />
           <MediaGrid>
