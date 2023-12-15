@@ -58,9 +58,7 @@ export function Navigation(props: NavigationProps) {
             target="_blank"
             rel="noreferrer"
             className="text-2xl text-white"
-          >
-            <IconPatch icon={Icons.DISCORD} clickable />
-          </a>
+          />
           <a
             href={conf().GITHUB_LINK}
             target="_blank"
